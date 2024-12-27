@@ -1,6 +1,9 @@
 {
-  "outputDirectory": "calculator",
-  "framework": null,
-  "buildCommand": null,
-  "installCommand": null
+  "version": 2,
+  "builds": [
+    {
+      "src": "**",
+      "use": "@vercel/static"
+    }
+  ]
 } 
