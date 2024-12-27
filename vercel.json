@@ -5,5 +5,11 @@
       "src": "calculator/**",
       "use": "@vercel/static"
     }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/calculator/$1"
+    }
   ]
 } 
